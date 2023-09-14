@@ -1,0 +1,74 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af21d9;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    width: 359px;
+}
+.container .background{
+    background-color: #1df7cd;
+    width: 238px;
+    height: 137px;
+    border-radius: 6px;
+    width: 100%;
+    background:linear-gradient(to right bottom , #a30000,#1c1c1c)
+}
+.container .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.container .content .dir{
+    text-align: left;
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+
+.container .content .dir select{
+    padding: 3px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.container .content .inputs{
+    text-align: left;
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+
+.container .content .inputs input{
+   cursor: pointer;
+}
+
+.container .info{
+    background-color: #ededed;
+    padding: 10px 5px;
+} 
+
+.container .btns button{
+    padding: 5px;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #af21d9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 6px;
+    cursor: pointer;
+}
